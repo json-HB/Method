@@ -1,3 +1,3 @@
-# 使用发放集合
-1. 汉字转拼音 [连接](https://www.baidu.com)
+# 实用方法集合
+1. 汉字转拼音 [连接](https://github.com/json-HB/Method/blob/master/pinyin.js)
 
