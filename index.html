@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style lang="">
+    :root {
+      --bg-color: red;
+    }
+    p {
+      border: 1px solid var(--bg-color, blue);
+      transition: all 0.3s linear 0s;
+      float: left;
+    }
+  </style>
+  <body>
+    <p>hello</p>
+    <button>click</button>
+    <script>
+      let btn = document.querySelector("button");
+      let p = document.querySelector("p");
+      btn.onclick = function() {
+        p.style.marginLeft = "100px";
+      };
+    </script>
+  </body>
+</html>
